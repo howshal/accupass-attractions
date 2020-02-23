@@ -12,13 +12,3 @@ export const setAttractionData = (data) => {
         attractions: data
     }
 };
-
-export const fetchAttractionDetail = (id) => async (dispatch, getState) => {
-    const {attractions} = getState();
-
-    if (attractions.length === 0) {
-        const attractions = await fetchList(1);
-        dispatch(setAttractionData(attractions));
-
-    }
-};
