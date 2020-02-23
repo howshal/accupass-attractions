@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9a9c3f6-afcb-4246-905f-708a9268bc57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/ScrollToTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/AttractionDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/AttractionDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/AttractionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/AttractionList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/AttractionDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/AttractionDetail.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,7 @@
       <updated>1581990014211</updated>
       <workItem from="1581990016911" duration="27619000" />
       <workItem from="1582395254072" duration="540000" />
-      <workItem from="1582419791815" duration="21070000" />
+      <workItem from="1582419791815" duration="21329000" />
     </task>
     <task id="LOCAL-00001" summary="Added attraction detail.">
       <created>1582438032128</created>
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582447611428</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added scroll restoration.">
+      <created>1582448165357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582448165357</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,17 +130,18 @@
     <MESSAGE value="Added basic styling." />
     <MESSAGE value="More styling." />
     <MESSAGE value="Removed contact info when there're no data to show." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed contact info when there're no data to show." />
+    <MESSAGE value="Added scroll restoration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added scroll restoration." />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581998212781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="416" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/3840.347.1920.1050@0.0.1920.1050" timestamp="1581998212781" />
-    <state x="1178" y="206" key="CommitChangelistDialog2" timestamp="1582447610825">
+    <state x="1178" y="206" key="CommitChangelistDialog2" timestamp="1582448164497">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1178" y="206" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1582447610825" />
+    <state x="1178" y="206" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1582448164497" />
     <state width="3397" height="296" key="GridCell.Tab.0.bottom" timestamp="1582438362690">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -153,10 +162,10 @@
     </state>
     <state width="1878" height="267" key="GridCell.Tab.0.right/0.0.1920.1050/3840.347.1920.1050@0.0.1920.1050" timestamp="1582009167004" />
     <state width="3397" height="296" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1582438362690" />
-    <state x="1312" y="428" key="Vcs.Push.Dialog.v2" timestamp="1582447613260">
+    <state x="1312" y="428" key="Vcs.Push.Dialog.v2" timestamp="1582448167763">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1312" y="428" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1582447613260" />
+    <state x="1312" y="428" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1582448167763" />
     <state x="1376" y="330" key="run.anything.popup" timestamp="1582446728254">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>

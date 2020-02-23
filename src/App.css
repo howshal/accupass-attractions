@@ -1,7 +1,11 @@
 .main-header {
-    position: sticky; top: 0; z-index: 100;
+    position: sticky; top: 0; z-index: 10;
     padding: 0.33rem; background-color: #79c065;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.main-page {
+    z-index: 5;
 }
 
 .main-header > h2 {
