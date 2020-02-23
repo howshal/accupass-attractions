@@ -4,6 +4,7 @@ import {useDispatch, useSelector} from "react-redux";
 
 import {fetchAttractionData} from "../action/actionCreators";
 import {attractionDetailSelector} from "../reducer/attractionsReducer";
+import ScrollToTop from "./ScrollToTop";
 import LoadingBlock from "./LoadingBlock";
 import DetailContainer from "./detail/DetailContainer";
 import '../style/AttractionDetail.css';
@@ -21,6 +22,7 @@ const AttractionDetail = (props) => {
 
     return (
         <div className="attraction-detail">
+            <ScrollToTop />
             {(detail === null) ? (
                 <div>
                     <h1 className="main-title">景點介紹</h1>
