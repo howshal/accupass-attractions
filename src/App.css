@@ -1,22 +1,39 @@
 .main-header {
     position: sticky; top: 0; z-index: 100;
-    background-color: #79c065;
+    padding: 0.33rem; background-color: #79c065;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.main-header > h2 {
+    margin: 0; padding: 0; text-align: center;
+    color: #ffffff; font-family: Arial, "微軟正黑體", sans-serif;
+}
+
+.main-title {
+    font-family: Arial, "微軟正黑體", sans-serif;
+    font-size: 2rem; color: darkolivegreen;
+}
+
+.item-title {
+    margin: 0; padding: 0;
+    font-family: Arial, "微軟正黑體", sans-serif; font-size: 1.25em;
+    color: darkolivegreen;
 }
 
 .main-page {
-
+    box-sizing: border-box; margin: auto;
 }
 
 @media only screen and (max-width: 1080px) {
     .main-page {
         width: 100%; max-width: 640px;
-        margin: auto;
+        padding: 0.33rem;
     }
 }
 
 @media only screen and (min-width: 1081px) {
     .main-page {
         width: 80%; max-width: 1280px;
-        margin: auto;
+        padding: 1rem;
     }
 }

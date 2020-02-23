@@ -19,8 +19,8 @@ const PhotoSlide = ({images}) => {
                         </div>
                     ))}
                 </ReactSwipe>
-                <button onClick={() => reactSwipeEl.prev()}>Previous</button>
-                <button onClick={() => reactSwipeEl.next()}>Next</button>
+                <button onClick={() => reactSwipeEl.prev()}>前一張照片</button>&nbsp;
+                <button onClick={() => reactSwipeEl.next()}>下一張照片</button>
             </div>
         );
     } else {

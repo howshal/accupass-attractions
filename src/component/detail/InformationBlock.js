@@ -7,14 +7,21 @@ import {nl2br} from "../../utility/TextFormatter";
 const InformationBlock = (props) => {
     return (
         <div>
-            <h3>旅遊資訊</h3>
-            <ul className="detail-information">
-                <li>地址：{props.address}</li>
-                <li><LocationMap lat={props.latitude} lng={props.longitude}/></li>
-                {(props.openTime && props.openTime !== '') ? (<li><p dangerouslySetInnerHTML={{__html: nl2br(props.openTime)}}/></li>) : ''}
+            <h3 className="item-title">旅遊資訊</h3>
+            <ul className="detail-list">
+                <li>
+                    <h4>地址</h4>
+                    <p>{props.address}</p>
+                    <LocationMap lat={props.latitude} lng={props.longitude}/>
+                </li>
+                {(props.openTime && props.openTime !== '') ? (
+                    <li>
+                        <h4>開放資訊</h4>
+                        <p dangerouslySetInnerHTML={{__html: nl2br(props.openTime)}}/>
+                    </li>) : ''}
                 {(props.ticket && props.ticket !== '') ? (
                     <li>
-                        <h4>售票資訊</h4>
+                        <h4>門票資訊</h4>
                         <p dangerouslySetInnerHTML={{__html: nl2br(props.ticket)}}/>
                     </li>) : ''}
             </ul>

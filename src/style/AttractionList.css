@@ -10,13 +10,17 @@
     list-style: none; margin: 0; padding: 0;
 }
 
-.list-stream > li {
+.list-stream__item {
 
+}
+
+.list-stream__item > a {
+    text-decoration: none;
 }
 
 .attraction-card {
     text-decoration: none;
-    margin: 0.5em;
+    margin: 1rem 0.5rem 1rem 0.5rem;
     border: 1px solid #79c065;
     border-radius: 10px; overflow: hidden;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
@@ -31,6 +35,15 @@
     object-fit: cover;
 }
 
+.attraction-card__intro {
+    box-sizing: border-box; padding: 1rem;
+}
+
+.attraction-card__intro > p {
+    margin: 0; padding: 0.5rem;
+    font-size: 0.875em; color: black;
+}
+
 @media only screen and (max-width: 1080px) {
 
 }
@@ -38,6 +51,7 @@
 @media only screen and (min-width: 1081px) {
     .attraction-card {
         display: flex; flex-direction: row;
+        align-items: flex-start;
     }
 
     .attraction-card__cover {

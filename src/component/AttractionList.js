@@ -21,13 +21,13 @@ const AttractionList = (props) => {
     return (
         <div className="attraction-list">
             <header>
-                <h1>景點列表</h1>
+                <h1 className="main-title">景點列表</h1>
             </header>
             <main>
                 {(attractions.length > 0) ? (
                     <ul className="list-stream">
                         {attractions.map((item) => (
-                            <li key={item.id}>
+                            <li key={item.id} className="list-stream__item">
                                 <Link to={`/${item.id}`}>
                                     <AttractionCard
                                         name={item.name}

@@ -5,8 +5,8 @@ import LinkLabel from "./LinkLabel";
 const ContactBlock = (props) => {
     return (
         <div>
-            <h3>聯絡資訊</h3>
-            <ul>
+            <h3 className="item-title">聯絡資訊</h3>
+            <ul className="detail-list">
                 {
                     (props.officialSite || props.facebook) ? (
                         <li>相關連結：

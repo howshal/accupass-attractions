@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9a9c3f6-afcb-4246-905f-708a9268bc57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/image_placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/detail/IntroductionBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/list/AttractionCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/AttractionDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/AttractionList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/AttractionDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/AttractionDetail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/AttractionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/AttractionList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/LoadingBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/LoadingBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/detail/DetailBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/detail/DetailContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/detail/ContactBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/detail/ContactBlock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/detail/InformationBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/detail/InformationBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/detail/LinkLabel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/detail/LinkLabel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/detail/LocationMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/detail/LocationMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/detail/PhotoSlide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/detail/PhotoSlide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/list/AttractionCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/list/AttractionCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/AttractionDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/AttractionDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/AttractionList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/AttractionList.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1Xxa5LxyWwUUfBilD7fv0eV30rE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -85,7 +90,7 @@
       <updated>1581990014211</updated>
       <workItem from="1581990016911" duration="27619000" />
       <workItem from="1582395254072" duration="540000" />
-      <workItem from="1582419791815" duration="16229000" />
+      <workItem from="1582419791815" duration="20323000" />
     </task>
     <task id="LOCAL-00001" summary="Added attraction detail.">
       <created>1582438032128</created>
@@ -94,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582438032129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added basic styling.">
+      <created>1582443326317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582443326317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,17 +114,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added attraction detail." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added attraction detail." />
+    <MESSAGE value="Added basic styling." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic styling." />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581998212781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="416" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/3840.347.1920.1050@0.0.1920.1050" timestamp="1581998212781" />
-    <state x="1178" y="206" key="CommitChangelistDialog2" timestamp="1582438031356">
+    <state x="1178" y="206" key="CommitChangelistDialog2" timestamp="1582443325589">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1178" y="206" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1582438031356" />
+    <state x="1178" y="206" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1582443325589" />
     <state width="3397" height="296" key="GridCell.Tab.0.bottom" timestamp="1582438362690">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -133,10 +146,14 @@
     </state>
     <state width="1878" height="267" key="GridCell.Tab.0.right/0.0.1920.1050/3840.347.1920.1050@0.0.1920.1050" timestamp="1582009167004" />
     <state width="3397" height="296" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1582438362690" />
-    <state x="1312" y="428" key="Vcs.Push.Dialog.v2" timestamp="1582438036037">
+    <state x="1312" y="428" key="Vcs.Push.Dialog.v2" timestamp="1582443330058">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1312" y="428" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1582438036037" />
+    <state x="1312" y="428" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1582443330058" />
+    <state x="1376" y="330" key="run.anything.popup" timestamp="1582446728254">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1376" y="330" key="run.anything.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1582446728254" />
     <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1581997736396">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

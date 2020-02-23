@@ -23,12 +23,12 @@ const AttractionDetail = (props) => {
         <div className="attraction-detail">
             {(detail === null) ? (
                 <div>
-                    <h1>景點介紹</h1>
+                    <h1 className="main-title">景點介紹</h1>
                     <LoadingBlock/>
                 </div>
             ) : (detail) ? (
                 <div>
-                    <h1>{detail.name}</h1>
+                    <h1 className="main-title">{detail.name}</h1>
                     <DetailContainer data={detail}/>
                 </div>
 
