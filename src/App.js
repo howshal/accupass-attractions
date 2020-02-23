@@ -9,10 +9,10 @@ function App() {
   return (
       <Router>
           <div className="App">
-              <header>
+              <header className="main-header">
                   <h2>Taipei Walker</h2>
               </header>
-              <main>
+              <main className="main-page">
                   <Switch>
                       <Route exact path="/" children={<AttractionList/>}/>
                       <Route path="/:id" children={<AttractionDetail/>}/>

@@ -11,8 +11,8 @@ const InformationBlock = (props) => {
             <ul className="detail-information">
                 <li>地址：{props.address}</li>
                 <li><LocationMap lat={props.latitude} lng={props.longitude}/></li>
-                {(props.openTime !== '') ? (<li><p dangerouslySetInnerHTML={{__html: nl2br(props.openTime)}}/></li>) : ''}
-                {(props.ticket !== '') ? (
+                {(props.openTime && props.openTime !== '') ? (<li><p dangerouslySetInnerHTML={{__html: nl2br(props.openTime)}}/></li>) : ''}
+                {(props.ticket && props.ticket !== '') ? (
                     <li>
                         <h4>售票資訊</h4>
                         <p dangerouslySetInnerHTML={{__html: nl2br(props.ticket)}}/>

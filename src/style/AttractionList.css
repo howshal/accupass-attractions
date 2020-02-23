@@ -1,0 +1,50 @@
+.attraction-list {
+
+}
+
+.attraction-card {
+
+}
+
+.list-stream {
+    list-style: none; margin: 0; padding: 0;
+}
+
+.list-stream > li {
+
+}
+
+.attraction-card {
+    text-decoration: none;
+    margin: 0.5em;
+    border: 1px solid #79c065;
+    border-radius: 10px; overflow: hidden;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.attraction-card__cover {
+    width: 100%; height: 150px;
+}
+
+.attraction-card__cover img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1080px) {
+
+}
+
+@media only screen and (min-width: 1081px) {
+    .attraction-card {
+        display: flex; flex-direction: row;
+    }
+
+    .attraction-card__cover {
+        width: 40%;
+    }
+
+    .attraction-card__intro {
+        width: 60%;
+    }
+}

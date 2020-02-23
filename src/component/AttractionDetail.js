@@ -1,10 +1,12 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import {Redirect, useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
+
 import {fetchAttractionData} from "../action/actionCreators";
 import {attractionDetailSelector} from "../reducer/attractionsReducer";
 import LoadingBlock from "./LoadingBlock";
-import DetailBlock from "./detail/DetailBlock";
+import DetailContainer from "./detail/DetailContainer";
+import '../style/AttractionDetail.css';
 
 const AttractionDetail = (props) => {
     const {id} = useParams();
@@ -18,16 +20,16 @@ const AttractionDetail = (props) => {
     }, [detail, dispatch]);
 
     return (
-        <div>
+        <div className="attraction-detail">
             {(detail === null) ? (
                 <div>
-                    <h1>#{id}景點內容</h1>
+                    <h1>景點介紹</h1>
                     <LoadingBlock/>
                 </div>
             ) : (detail) ? (
                 <div>
                     <h1>{detail.name}</h1>
-                    <DetailBlock data={detail}/>
+                    <DetailContainer data={detail}/>
                 </div>
 
             ) : (<Redirect to={'/'}/>)}

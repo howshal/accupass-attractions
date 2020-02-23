@@ -1,10 +1,12 @@
-import React, {useEffect, useState} from "react";
-import {fetchList} from "../model/AttractionsAPI";
+import React, {useEffect} from "react";
 import {Link} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
+
 import {fetchAttractionData} from "../action/actionCreators";
 import {attractionsSelector} from "../reducer/attractionsReducer";
 import LoadingBlock from "./LoadingBlock";
+import AttractionCard from "./list/AttractionCard";
+import '../style/AttractionList.css';
 
 const AttractionList = (props) => {
     const attractions = useSelector(attractionsSelector);
@@ -17,25 +19,20 @@ const AttractionList = (props) => {
     }, [dispatch]);
 
     return (
-        <div>
+        <div className="attraction-list">
             <header>
                 <h1>景點列表</h1>
             </header>
             <main>
                 {(attractions.length > 0) ? (
-                    <ul>
+                    <ul className="list-stream">
                         {attractions.map((item) => (
                             <li key={item.id}>
                                 <Link to={`/${item.id}`}>
-                                    <div>
-                                        <div>
-                                            {(item.images.length > 0) ? (<img src={item.images[0].src}/>) : ''}
-                                        </div>
-                                        <div>
-                                            <h3>{item.name}</h3>
-                                            <p>{item.address}</p>
-                                        </div>
-                                    </div>
+                                    <AttractionCard
+                                        name={item.name}
+                                        address={item.address}
+                                        image={(item.images.length > 0) ? item.images[0] : null} />
                                 </Link>
                             </li>
                         ))}

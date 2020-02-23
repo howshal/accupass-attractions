@@ -1,24 +1,20 @@
 import React from "react";
 import PropTypes from 'prop-types';
+
 import PhotoSlide from "./PhotoSlide";
-import LocationMap from "./LocationMap";
-import {nl2br} from "../../utility/TextFormatter";
-import LinkLabel from "./LinkLabel";
 import InformationBlock from "./InformationBlock";
 import ContactBlock from "./ContactBlock";
+import IntroductionBlock from "./IntroductionBlock";
 
-const DetailBlock = ({data}) => {
-
-
+const DetailContainer = ({data}) => {
     return (
-        <div>
+        <div className="detail-container">
             {(data.images.length > 0) ? (
                 <PhotoSlide images={data.images}/>
             ) : ''}
-            <div className="detail-introduction">
-                <p dangerouslySetInnerHTML={{__html: nl2br(data.introduction)}}/>
-                {(data.remind !== '') ? (<p>{data.remind}</p>) : ''}
-            </div>
+            <IntroductionBlock
+                introduction={data.introduction}
+                remind={data.remind} />
             <InformationBlock
                 address={data.address}
                 latitude={data.nlat}
@@ -35,8 +31,8 @@ const DetailBlock = ({data}) => {
     );
 };
 
-DetailBlock.propTypes = {
+DetailContainer.propTypes = {
     data: PropTypes.object.isRequired,
 };
 
-export default DetailBlock;
+export default DetailContainer;
