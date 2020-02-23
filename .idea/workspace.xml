@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9a9c3f6-afcb-4246-905f-708a9268bc57" name="Default Changelist" comment="Added 'back to attraction list' button.">
-      <change afterPath="$PROJECT_DIR$/src/component/common/LoadingCircle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/LoadingCircle.css" afterDir="false" />
+    <list default="true" id="e9a9c3f6-afcb-4246-905f-708a9268bc57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/AttractionDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/AttractionDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/AttractionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/AttractionList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/LoadingBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/common/LoadingBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
       <updated>1581990014211</updated>
       <workItem from="1581990016911" duration="27619000" />
       <workItem from="1582395254072" duration="540000" />
-      <workItem from="1582419791815" duration="24276000" />
+      <workItem from="1582419791815" duration="24530000" />
     </task>
     <task id="LOCAL-00001" summary="Added attraction detail.">
       <created>1582438032128</created>
@@ -175,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582450975487</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Improved loading aesthetic.">
+      <created>1582451363398</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582451363398</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,17 +195,18 @@
     <MESSAGE value="Added useEffect dependency." />
     <MESSAGE value="Updated README.md." />
     <MESSAGE value="Added 'back to attraction list' button." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 'back to attraction list' button." />
+    <MESSAGE value="Improved loading aesthetic." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved loading aesthetic." />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581998212781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="416" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/3840.347.1920.1050@0.0.1920.1050" timestamp="1581998212781" />
-    <state x="1178" y="206" key="CommitChangelistDialog2" timestamp="1582451355423">
+    <state x="1178" y="206" key="CommitChangelistDialog2" timestamp="1582451595007">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1178" y="206" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1582451355423" />
+    <state x="1178" y="206" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1582451595007" />
     <state width="3397" height="296" key="GridCell.Tab.0.bottom" timestamp="1582449848499">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -223,10 +227,10 @@
     </state>
     <state width="1878" height="267" key="GridCell.Tab.0.right/0.0.1920.1050/3840.347.1920.1050@0.0.1920.1050" timestamp="1582009167004" />
     <state width="3397" height="296" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1582449848499" />
-    <state x="1312" y="428" key="Vcs.Push.Dialog.v2" timestamp="1582450995623">
+    <state x="1312" y="428" key="Vcs.Push.Dialog.v2" timestamp="1582451600974">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1312" y="428" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1582450995623" />
+    <state x="1312" y="428" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1582451600974" />
     <state x="1376" y="330" key="run.anything.popup" timestamp="1582446728254">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
