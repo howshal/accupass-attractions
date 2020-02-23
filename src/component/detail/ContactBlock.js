@@ -11,7 +11,7 @@ const ContactBlock = (props) => {
                     (props.officialSite || props.facebook) ? (
                         <li>相關連結：
                             {(props.officialSite && props.officialSite !== '') ? (<LinkLabel link={props.officialSite} text={'官方網站'}/>) : ''}
-                            {(props.facebook && props.facebook !== '') ? (<LinkLabel link={props.facebook} text={'Facebook 粉絲專頁'}/>) : ''}
+                            {(props.facebook && props.facebook !== '') ? (<LinkLabel link={props.facebook} text={'Facebook 專頁'}/>) : ''}
                         </li>
                     ) : ''
                 }

@@ -6,7 +6,7 @@
 .detail-list p { margin: 0.5em; }
 .detail-list h4 { margin: 0; font-family: Arial, "微軟正黑體", sans-serif; }
 
-.location-map { width: 100%; }
+.location-map { width: 100%; z-index: 5; }
 
 .slide-image {
     width: 100%;
