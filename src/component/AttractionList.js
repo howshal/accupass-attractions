@@ -8,7 +8,7 @@ import LoadingBlock from "./LoadingBlock";
 import AttractionCard from "./list/AttractionCard";
 import '../style/AttractionList.css';
 
-const AttractionList = (props) => {
+const AttractionList = () => {
     const attractions = useSelector(attractionsSelector);
     const dispatch = useDispatch();
 
@@ -16,7 +16,7 @@ const AttractionList = (props) => {
         if (attractions.length === 0) {
             dispatch(fetchAttractionData(1));
         }
-    }, [dispatch]);
+    }, [dispatch, attractions]);
 
     return (
         <div className="attraction-list">
