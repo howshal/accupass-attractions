@@ -3,6 +3,8 @@ import {Redirect, useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {fetchAttractionData} from "../action/actionCreators";
 import {attractionDetailSelector} from "../reducer/attractionsReducer";
+import LoadingBlock from "./LoadingBlock";
+import DetailBlock from "./detail/DetailBlock";
 
 const AttractionDetail = (props) => {
     const {id} = useParams();
@@ -17,21 +19,17 @@ const AttractionDetail = (props) => {
 
     return (
         <div>
-            <header>
-                <h1>#{id}景點內容</h1>
-            </header>
             {(detail === null) ? (
-                <div>載入中</div>
+                <div>
+                    <h1>#{id}景點內容</h1>
+                    <LoadingBlock/>
+                </div>
             ) : (detail) ? (
                 <div>
-                    {(detail.images.length > 0) ? detail.images.map((image, index) => (
-                        <img key={index} src={image.src} alt={image.sub}/>
-                    )) : ''}
-                    <ul>
-                        <li>地址：{detail.address}</li>
-                        <li><p>{detail.introduction}</p></li>
-                    </ul>
+                    <h1>{detail.name}</h1>
+                    <DetailBlock data={detail}/>
                 </div>
+
             ) : (<Redirect to={'/'}/>)}
         </div>
     );

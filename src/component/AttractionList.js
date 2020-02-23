@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import {fetchAttractionData} from "../action/actionCreators";
 import {attractionsSelector} from "../reducer/attractionsReducer";
+import LoadingBlock from "./LoadingBlock";
 
 const AttractionList = (props) => {
     const attractions = useSelector(attractionsSelector);
@@ -40,7 +41,7 @@ const AttractionList = (props) => {
                         ))}
                     </ul>
                 ): (
-                    <div>載入中</div>
+                    <LoadingBlock/>
                 )}
             </main>
         </div>

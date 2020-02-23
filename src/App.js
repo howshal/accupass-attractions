@@ -9,10 +9,15 @@ function App() {
   return (
       <Router>
           <div className="App">
-              <Switch>
-                  <Route exact path="/" children={<AttractionList/>}/>
-                  <Route path="/:id" children={<AttractionDetail/>}/>
-              </Switch>
+              <header>
+                  <h2>Taipei Walker</h2>
+              </header>
+              <main>
+                  <Switch>
+                      <Route exact path="/" children={<AttractionList/>}/>
+                      <Route path="/:id" children={<AttractionDetail/>}/>
+                  </Switch>
+              </main>
           </div>
       </Router>
   );
