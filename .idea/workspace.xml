@@ -80,7 +80,7 @@
       <updated>1581990014211</updated>
       <workItem from="1581990016911" duration="27619000" />
       <workItem from="1582395254072" duration="540000" />
-      <workItem from="1582419791815" duration="23012000" />
+      <workItem from="1582419791815" duration="23256000" />
     </task>
     <task id="LOCAL-00001" summary="Added attraction detail.">
       <created>1582438032128</created>
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582449863932</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated README.md.">
+      <created>1582450194916</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582450194916</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,17 +167,18 @@
     <MESSAGE value="Fixed visual hiccups." />
     <MESSAGE value="Removed unused actions." />
     <MESSAGE value="Added useEffect dependency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added useEffect dependency." />
+    <MESSAGE value="Updated README.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md." />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581998212781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="416" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/3840.347.1920.1050@0.0.1920.1050" timestamp="1581998212781" />
-    <state x="1178" y="206" key="CommitChangelistDialog2" timestamp="1582449863343">
+    <state x="1178" y="206" key="CommitChangelistDialog2" timestamp="1582450194335">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1178" y="206" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1582449863343" />
+    <state x="1178" y="206" key="CommitChangelistDialog2/0.0.3440.1400@0.0.3440.1400" timestamp="1582450194335" />
     <state width="3397" height="296" key="GridCell.Tab.0.bottom" timestamp="1582449848499">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -191,10 +199,10 @@
     </state>
     <state width="1878" height="267" key="GridCell.Tab.0.right/0.0.1920.1050/3840.347.1920.1050@0.0.1920.1050" timestamp="1582009167004" />
     <state width="3397" height="296" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1582449848499" />
-    <state x="1312" y="428" key="Vcs.Push.Dialog.v2" timestamp="1582449873418">
+    <state x="1312" y="428" key="Vcs.Push.Dialog.v2" timestamp="1582450197138">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1312" y="428" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1582449873418" />
+    <state x="1312" y="428" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1582450197138" />
     <state x="1376" y="330" key="run.anything.popup" timestamp="1582446728254">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
