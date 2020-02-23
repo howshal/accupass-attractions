@@ -21,12 +21,14 @@ const DetailContainer = ({data}) => {
                 longitude={data.elong}
                 openTime={data.open_time}
                 ticket={data.ticket} />
-            <ContactBlock
-                officialSite={data.official_site}
-                email={data.email}
-                tel={data.tel}
-                fax={data.fax}
-                facebook={data.facebook} />
+            {(data.official_site || data.email || data.tel || data.fax || data.facebook) ? (
+                <ContactBlock
+                    officialSite={data.official_site}
+                    email={data.email}
+                    tel={data.tel}
+                    fax={data.fax}
+                    facebook={data.facebook} />
+            ) : ''}
         </div>
     );
 };
