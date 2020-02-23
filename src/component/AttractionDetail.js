@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import {Redirect, useParams} from "react-router-dom";
+import {Link, Redirect, useParams} from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 
 import {fetchAttractionData} from "../action/actionCreators";
@@ -35,6 +35,7 @@ const AttractionDetail = (props) => {
                 </div>
 
             ) : (<Redirect to={'/'}/>)}
+            <Link to="/" className="link-stream">回景點列表</Link>
         </div>
     );
 };

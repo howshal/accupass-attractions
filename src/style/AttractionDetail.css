@@ -25,6 +25,26 @@
     color: #3d8644; text-decoration: none;
 }
 
+.link-stream {
+    display: block; box-sizing: border-box;
+    width: 100%; max-width: 400px;
+    padding: 10px; margin: auto;
+    border: 1px dashed #3d8644; border-radius: 10px;
+    transition: 0.1s; color: #3d8644;
+    text-align: center; text-decoration: none;
+    background-color: rgba(100,100,100,0.1);
+    font-family: Arial,"微軟正黑體",sans-serif;
+    -webkit-user-select: none; user-select: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent; outline: 0;
+}
+.link-stream:hover {
+    transform: scale(1.05, 1.05);
+}
+.link-stream:active {
+    transform: scale(0.975, 0.975);
+}
+
 @media only screen and (max-width: 1080px) {
     .slide-image { height: 50vh; }
     .location-map { height: 160px; }
