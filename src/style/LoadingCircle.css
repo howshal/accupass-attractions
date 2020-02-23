@@ -1,0 +1,63 @@
+/*---------Eclipse Loading Animation-----------*/
+@keyframes lds-eclipse {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes lds-eclipse {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.lds-eclipse, .lds-eclipse-dark {
+    display: inline-block;
+    position: relative;
+}
+
+.lds-eclipse > div, .lds-eclipse-dark > div {
+    position: absolute;
+    -webkit-animation: lds-eclipse 1s linear infinite;
+    animation: lds-eclipse 1s linear infinite;
+    width: 120px;
+    height: 120px;
+    top: 40px;
+    left: 40px;
+    border-radius: 50%;
+    -webkit-transform-origin: 60px 67px;
+    transform-origin: 60px 67px;
+}
+
+.lds-eclipse > div {
+    box-shadow: 0 14px 0 0 rgba(255, 255, 255,0.65);
+}
+
+.lds-eclipse-dark > div {
+    box-shadow: 0 14px 0 0 rgba(15, 15, 15, 0.65);
+}
+
+.lds-eclipse, .lds-eclipse-dark {
+    width: 45px !important;
+    height: 45px !important;
+    -webkit-transform: translate(-22.5px, -22.5px) scale(0.225) translate(22.5px, 22.5px);
+    transform: translate(-22.5px, -22.5px) scale(0.225) translate(22.5px, 22.5px);
+}

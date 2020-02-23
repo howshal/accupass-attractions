@@ -5,11 +5,11 @@ import {useDispatch, useSelector} from "react-redux";
 import {fetchAttractionData} from "../action/actionCreators";
 import {attractionDetailSelector} from "../reducer/attractionsReducer";
 import ScrollToTop from "./ScrollToTop";
-import LoadingBlock from "./LoadingBlock";
+import LoadingBlock from "./common/LoadingBlock";
 import DetailContainer from "./detail/DetailContainer";
 import '../style/AttractionDetail.css';
 
-const AttractionDetail = (props) => {
+const AttractionDetail = () => {
     const {id} = useParams();
     const dispatch = useDispatch();
     const detail = useSelector(state => attractionDetailSelector(state, parseInt(id)));
@@ -26,7 +26,7 @@ const AttractionDetail = (props) => {
             {(detail === null) ? (
                 <div>
                     <h1 className="main-title">景點介紹</h1>
-                    <LoadingBlock/>
+                    <LoadingBlock isDark={true} />
                 </div>
             ) : (detail) ? (
                 <div>

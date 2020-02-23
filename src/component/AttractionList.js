@@ -4,7 +4,7 @@ import {useDispatch, useSelector} from "react-redux";
 
 import {fetchAttractionData} from "../action/actionCreators";
 import {attractionsSelector} from "../reducer/attractionsReducer";
-import LoadingBlock from "./LoadingBlock";
+import LoadingBlock from "./common/LoadingBlock";
 import AttractionCard from "./list/AttractionCard";
 import '../style/AttractionList.css';
 
@@ -36,7 +36,7 @@ const AttractionList = () => {
                         ))}
                     </ul>
                 ): (
-                    <LoadingBlock/>
+                    <LoadingBlock isDark={true} />
                 )}
             </div>
         </div>
